@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "No Sponsored Items on Amazon",
+  "description": "Extension that hides sponsored items on Amazon",
+  "version": "1.0",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["https://www.amazon.com/*"],
+  "action": {
+    "default_icon": {
+      "16": "images/icon-16.png",
+      "32": "images/icon-32.png",
+      "48": "images/icon-48.png",
+      "128": "images/icon-128.png"
+    }
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+X",
+        "mac": "Command+X"
+      }
+    }
+  }
+}
