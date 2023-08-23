@@ -2,6 +2,10 @@
 
 "Hide Sponsored Items on Amazon" is a chrome extension that allows user to easily hide sponsored items on Amazon.com search result page. 
 
+## Download
+**[ Chrome web store ]**
+https://chrome.google.com/webstore/detail/ad-blocker-for-amazon/dcjabbkjedinkiljmljnnkhdbjgebajk
+
 ## Usage
 
 Default command: Control + Shift + x (Window) / Command + Shift + x (Mac)
